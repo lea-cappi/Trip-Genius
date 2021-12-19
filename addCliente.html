@@ -16,6 +16,7 @@
     
     <!-- Style -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
 
     <title>✈TripGenius - Genios de los viajes✈</title>
   </head>
@@ -63,7 +64,9 @@
                     </li>
                   </ul>
                 </li>
-                <li><a href="about.html"><span>Clientes</span></a></li>
+                <li><a href="listings.html"><span>Clientes</span></a></li>
+                <li><a href="about.html"><span>Empleados</span></a></li>
+                <li><a href="blog.html"><span>Ventas</span></a></li>
                 <li><a href="contact.html"><span>Nueva Venta</span></a></li>
                 <li><a href="contact.html"><span class="user">User</span></a></li>
               </ul>
@@ -80,7 +83,65 @@
       
     </header>
 
-    <div class="hero" style="background-image: url('images/home.jpg');"></div>
+    <section class="hero main">
+      <div class="container container-form">
+        <div class="signup-content">
+            <div class="signup-img">
+                <img src="images/cliente.png" alt="">
+                <div class="signup-img-content">
+                    <h2>Agregar Cliente </h2>
+                </div>
+            </div>
+            <div class="signup-form">
+                <form method="POST" class="register-form" id="register-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <div class="form-input">
+                                <label>Nombre</label>
+                                <input type="text" name="nombre"/>
+                            </div>
+                            <div class="form-input">
+                                <label>Apellido</label>
+                                <input type="text" name="apellido"/>
+                            </div>
+                            <div class="form-input">
+                                <label>DNI</label>
+                                <input type="text" name="dni"/>
+                            </div>
+                            <div class="form-input">
+                                <label>Fecha de Nacimiento</label>
+                                <input type="date" name="fechaNac"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-input">
+                                <label>Nacionalidad</label>
+                                <input type="text" name="nacionalidad"/>
+                            </div>
+                            <div class="form-input">
+                                <label>Email</label>
+                                <input type="text" name="email"/>
+                            </div>
+                            <div class="form-input">
+                                <label for="telefono">Telefono</label>
+                                <input type="text" name="telefono"/>
+                            </div>
+                            <div class="form-input">
+                                <label>Direccion</label>
+                                <input type="textarea" name="direccion"/>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <input type="submit" value="Agregar" class="submit" name="submit" id="submit"/>
+                        <input type="submit" value="Reset" class="submit" name="reset" id="reset"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
   
 
 

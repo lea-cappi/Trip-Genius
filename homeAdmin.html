@@ -20,8 +20,6 @@
     <title>✈TripGenius - Genios de los viajes✈</title>
   </head>
   <body>
-
-
     <div class="site-mobile-menu">
       <div class="site-mobile-menu-header">
         <div class="site-mobile-menu-close mt-3">
@@ -43,31 +41,84 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                <li class="active"><a href="index.html"><span>Inicio</span></a></li>
+                <li><a href="homeAdmin.html"><span>Inicio</span></a></li>
                 <li class="has-children">
-                  <a href="about.html"><span>Servicios y Paquetes</span></a>
+                  <a href="#"><span>Servicios y Paquetes</span></a>
                   <ul class="dropdown arrow-top">
                     <li class="has-children">
                       <a href="#">Servicios</a>
                       <ul class="dropdown">
-                        <li><a href="#">Servicios</a></li>
-                        <li><a href="#">Tipo de Servicios</a></li>
+                        <li><a href="adminServicios.html">Servicios</a></li>
+                        <li><a href="addServicio.html">Agregar Servicio</a></li>
+                        <li><a href="adminTipoServicios.html">Tipo de Servicios</a></li>
+                        <li><a href="addTipoServicio.html">Agregar Tipo de Servicio</a></li>
                       </ul>
                     </li>
                     <li class="has-children">
                       <a href="#">Paquetes</a>
                       <ul class="dropdown">
-                        <li><a href="#">Paquetes</a></li>
-                        <li><a href="#">Tipo de Paquetes</a></li>
+                        <li><a href="adminPaquetes.html">Paquetes</a></li>
+                        <li><a href="addPaquete.html">Agregar Paquete</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-children">
+                      <a href="#">Ciudades y paises</a>
+                      <ul class="dropdown">
+                        <li><a href="adminCiudades.html">Ciudades</a></li>
+                        <li><a href="addCiudad.html">Agregar Ciudad</a></li>
+                        <li><a href="adminPaises.html">Paises</a></li>
+                        <li><a href="addPais.html">Agregar Pais</a></li>
                       </ul>
                     </li>
                   </ul>
                 </li>
-                <li><a href="listings.html"><span>Empleados</span></a></li>
-                <li><a href="about.html"><span>Clientes</span></a></li>
-                <li><a href="blog.html"><span>Ventas</span></a></li>
-                <li><a href="contact.html"><span>Nueva Venta</span></a></li>
-                <li><a href="contact.html"><span class="user">User</span></a></li>
+                <li class="has-children">
+                  <a href="#"><span>Clientes</span></a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="adminClientes.html">Administrar Clientes</a></li>
+                    <li><a href="addCliente.html">Agregar Cliente</a></li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#"><span>Empleados</span></a>
+                  <ul class="dropdown arrow-top">
+                    <li class="has-children">
+                      <a href="#">Empleados</a>
+                      <ul class="dropdown">
+                        <li><a href="adminEmpleados.html">Administrar Empleados</a></li>
+                        <li><a href="addEmpleado.html">Agregar Empleado</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-children">
+                      <a href="#">Cargos</a>
+                      <ul class="dropdown">
+                        <li><a href="adminCargos.html">Cargos</a></li>
+                        <li><a href="addCargo.html">Agregar Cargo</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="has-children">
+                  <a href="#"><span>Ventas</span></a>
+                  <ul class="dropdown arrow-top">
+                    <li class="has-children">
+                      <a href="#">Ventas</a>
+                      <ul class="dropdown">
+                        <li><a href="adminVentas.html">Administrar Ventas</a></li>
+                        <li><a href="reportesVentas.html">Reportes de Ventas</a></li>
+                      </ul>
+                    </li>
+                    <li class="has-children">
+                      <a href="#">Medios de Pago</a>
+                      <ul class="dropdown">
+                        <li><a href="adminMedPagos.html">Medios de Pago</a></li>
+                        <li><a href="addMedPago.html">Agregar Medio de Pago</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="nuevaVenta.html"><span>Nueva Venta</span></a></li>
+                <li><a href="user.html"><span class="user">User</span></a></li>
               </ul>
             </nav>
           </div>
@@ -82,14 +133,13 @@
       
     </header>
 
-    <div class="hero" style="background-image: url('images/home.jpg');"></div>
+    <div class="hero"></div>
   
 
-
+ 
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
